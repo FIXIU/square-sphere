@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^12.6.0",
     "@astrojs/mdx": "^4.3.1",
     "@astrojs/rss": "^4.0.12",
     "@astrojs/sitemap": "^3.4.1",
@@ -16,5 +17,8 @@
     "astro": "^5.12.2",
     "sharp": "^0.34.2",
     "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "wrangler": "^4.25.1"
   }
 }
